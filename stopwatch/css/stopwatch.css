@@ -1,0 +1,16 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul.time-list {
+    padding: 0;
+}
+
+.time-list li {
+    list-style: none;
+}
