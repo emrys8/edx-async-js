@@ -24,7 +24,7 @@ function writeTRecordsToDOM(time) {
 }
 
 function roundTime(time, dp=2) { // d.p = decimal places
-    time = time.toFixed(2);
+    time = time.toFixed(dp);
     return time;
 }
 
