@@ -47,7 +47,7 @@ function startTimer() {
     intervalID = setInterval(() => {
         elapsedTime += 0.01;
         timer.innerHTML = roundTime(elapsedTime);
-    }, 500);
+    }, 100);
 
     started = true;
 }

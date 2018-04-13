@@ -9,7 +9,7 @@ const stopwatch = {
         this.timerIntervalId = setInterval(() => {
             this.elapsedTime += 0.01;
             writeTimeToDOM(roundTime(this.elapsedTime));
-        }, 500);
+        }, 100);
     },
 
     stopTimer() {
